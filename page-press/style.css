@@ -1,0 +1,284 @@
+h1{
+    text-align: center;
+    color : #01628D;
+    font-family: "PT Sans Narrow", sans-serif;
+    padding-top: 1%;
+    font-size: 48px;
+
+}
+
+h3{
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 30px;
+    color : #C13A2C;
+}
+
+h2{
+    text-align: center;
+}
+
+
+.sous-titre {
+    color: #C13A2C;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+/* DEBUT titre bleu */
+.titre p {
+    color : #C13A2C;
+    font-size: 28px;
+    text-align: center;
+}
+
+.titre-section {
+    border-radius: 8px;
+    background-color: #01628D;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.titre-section h1{
+    color: white;
+    padding-bottom: 1%;
+    font-size: 27px; /* taille police */
+}
+/* FIN titre bleu */
+
+
+.rounded-box {
+    background-color: #01628D;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    color: white;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.option {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.option img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.option h3 {
+    font-size: 22px;
+    color: #01628D;
+}
+
+.option p {
+    font-size: 16px;
+    color: #333;
+}
+
+.option a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #01628D;
+    font-weight: bold;
+}
+
+
+
+.info-section {
+    width: 90%; /* Réduction légère de la largeur */
+    margin: 40px auto; /* Ajoute un espace de 40px en haut et en bas, centré horizontalement */
+}
+.info-box {
+    border: 1px solid #01628D;
+    border-radius: 10px; /* Coins arrondis */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    box-sizing: border-box; /* Inclut bordure et padding dans la largeur */
+    width: 100%;
+    background-color: #ffffff;
+}
+.info-title {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline; /* Titre souligné */
+    margin-bottom: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+.info-categories {
+    font-size: 14px;
+    color: #01628D;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.info-categories a {
+    color: #01628D;
+    text-decoration: none;
+}
+.info-categories a:hover {
+    text-decoration: underline; /* Souligné au survol */
+}
+.info-date {
+    font-size: 12px;
+    color: #7D7D7D;
+    margin-bottom: 10px;
+}
+.info-description {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.info-link {
+    font-weight: bold;
+    color: #01628D;
+    text-decoration: none; /* Pas de soulignement */
+    font-size: 14px;
+    display: inline-block; /* Affichage en ligne */
+    margin-top: 10px;
+}
+.info-link:hover {
+    text-decoration: underline; /* Souligné au survol */
+}
+/* Conteneur global des rectangles */
+.news-container {
+    display: flex; /* Aligne les rectangles horizontalement */
+    gap: 20px; /* Espace entre les rectangles */
+}
+/* Rectangle général */
+.news-box {
+    width: 45%; /* Taille des rectangles */
+    border: 1px solid #01628D; /* Bordure bleue */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    overflow: hidden;
+}
+/* Image */
+.news-image {
+    width: 100%;
+    height: auto;
+}
+/* Contenu */
+.news-content {
+    padding: 15px;
+}
+/* Titre (lien souligné) */
+.news-title a {
+    color: #01628D; /* Bleu */
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline; /* Souligné */
+}
+/* Date */
+.news-date {
+    font-size: 12px;
+    color: #7D7D7D;
+    margin-top: 5px;
+}
+/* Description */
+.news-description {
+    font-size: 14px;
+    color: #333;
+}
+/* Premier rectangle - bord gauche */
+.box1 {
+    margin-left: 5%; /* Espace du bord gauche */
+}
+/* Deuxième rectangle - bord droit */
+.box2 {
+    margin-right: 5%; /* Espace du bord droit */
+}
+/* Conteneur du bouton */
+.load-more-container {
+    display: flex;
+    justify-content: center; /* Centre le bouton horizontalement */
+    margin-top: 20px; /* Ajoute un espace au-dessus */
+}
+/* Style du bouton */
+.load-more-btn {
+    background-color: #EBBB55; /* Jaune */
+    color: #ffffff; /* Blanc */
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Animation au survol */
+}
+/* Changement de couleur au survol */
+.load-more-btn:hover {
+    background-color: #EBBB55; /* Jaune plus foncé */
+}
+.hidden {
+    display: none; /* Cache les éléments */
+}
+.load-more-btn {
+    background-color: #FFC107; /* Jaune */
+    color: white; /* Texte en blanc */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto; /* Espacement */
+    display: block;
+    text-align: center;
+}
+.load-more-btn:hover {
+    background-color: #e0a800; /* Teinte plus foncée au survol */
+}
+
+@media (max-width: 768px) {
+    .partie-logo {
+        width: 40%;
+    }
+
+    .logoffdsb {
+        width: 80%;
+    }
+
+    .menu-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-form {
+        width: 100%;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    .don-btn {
+        bottom: 65%;
+        left: 25%;
+        width: 50%;
+    }
+
+    .entete .image-entete {
+        height: auto;
+    }
+}
+

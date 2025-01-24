@@ -1,0 +1,203 @@
+
+.menu li {
+    padding: 10px;
+    display: inline-block; /* colonne pour chaque li sur 1 ligne*/
+}
+
+.menu a {
+    text-decoration: none; /*enlève les lignes de lien*/
+    color: #C33339;
+    font-size: 19px;
+    font-weight: bold; /* texte en gras */
+    font-family: "PT Sans Narrow", sans-serif;
+
+}
+
+.menu a.identifier-btn {
+    background-color: #01628D;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+
+.menu a.identifier-btn:hover {
+    background-color: #004f7b;
+}
+
+@media (max-width: 768px) {
+
+    .menu a {
+        font-size: 14px;
+    }
+
+    .menu a.identifier-btn {
+        padding: 9px;
+        font-size: 14px;
+    }
+
+    .menu li {
+        padding: 6px;
+    }
+}
+
+
+.entete .image-entete{
+    width: 100%;
+    height: 420px;
+    border-radius: 8px;
+
+}
+
+.titre a{
+    text-decoration: none; /*enlever les lignes liens en dessous*/
+}
+
+h1{
+    text-align: center;
+    color : #01628D;
+    font-family: "PT Sans Narrow", sans-serif;
+    padding-top: 1%;
+
+}
+
+.p4{
+    text-align: center;
+    color: #C13A2C;
+    font-family: "Pt Serif", sans-serif;
+    padding-bottom: 3%; /* espacement entre p4 et Ethique du don de sang*/
+}
+
+.don-btn{
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    width: 30%;
+
+}
+
+.menu-deroulant {
+    background-color: #01628D; /* Fond bleu */
+    padding: 3px;
+    border-radius: 8px;
+    /*border-radius: 20px; /* cadre bleu du menu déroulant */
+
+}
+
+.menu-deroulant a{
+    text-decoration: none; /*enlève les lignes de lien*/
+    font-weight: bold;
+    color: white;
+    font-family: "PT Sans Narrow", sans-serif;
+
+}
+
+.menu-deroulant li {
+    margin: 0 1%;
+    display: inline-block;
+    background-color: #EBBB55;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.menu-deroulant ul ul {
+    display: none; /* Cache les sous-menus par défaut */
+    position: absolute; /* Positionne les sous-menus en dehors du flux normal */
+    background-color: #01628D; /* Fond bleu pour le menu déroulant */
+    border-radius: 8px; /* border cadre bleu des sous-menus*/
+    width: 23%;
+    padding: 1%;
+}
+
+
+.menu-deroulant ul li:hover ul {
+    display : block; /* Affiche les sous-menus au survol du parent */
+}
+
+.menu-deroulant ul li ul li {
+    display: block; /* Les sous-menus s'affichent en colonnes */
+    margin-bottom: 4%; /* Espacement entre les éléments du sous-menu */
+    width: 100%; /* sous-menus prennent toute la longueur du cadre bleu*/
+}
+
+/* Style général pour les questions */
+.question-box {
+    border: 2px solid #01628D;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Largeur roulette */
+.question-box select {
+    width: 50%; /* 50% de la largeur de son conteneur */
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #01628D;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+/* Style pour les étiquettes de questions */
+.question-box label {
+    font-weight: bold;
+    color: #01628D;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Style pour les boutons et les cases à cocher */
+.question-box input[type="radio"],
+.question-box input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Style pour les listes déroulantes */
+.question-box select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #01628D;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* Boutons "Suivant" */
+button {
+    padding: 10px 20px;
+    background-color: #01628D; /* Bleu principal */
+    color: white; /* Texte blanc */
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #004f7b; /* Bleu plus foncé au survol */
+    transform: scale(1.05); /* Effet au survol */
+}
+
+/* Espacement au-dessus et en dessous des boutons */
+.button-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Style par défaut des boutons radio */
+input[type="radio"] {
+    accent-color: #01628D;
+    cursor: pointer;
+}
+
+
+

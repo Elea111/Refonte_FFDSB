@@ -1,0 +1,123 @@
+footer .liens{
+    display: flex;
+    justify-content: space-between;
+    background-color: #01628D;
+    font-family: "PT Sans Narrow";
+}
+
+.search-container2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    left: -7px;
+    top: -60px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.search-input {
+    width: 200px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.search-input::placeholder {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.search-results {
+    position: absolute;
+    top: calc(100%);
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0;
+}
+
+.search-results li {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.search-results li:hover {
+    background-color: #f5f5f5;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+.search-text {
+    color: #CBCBCB; /* Couleur du texte en blanc */
+}
+
+footer .liens .horizontale{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+footer .liens .verticale{
+    list-style-type: none;
+    padding: 0;
+    margin-right: 100px;
+    color: #CBCBCB;
+    font-size: 20px;
+}
+
+
+footer .liens .verticale li{
+    margin-top: 1em;
+
+}
+
+footer .reseaux{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    font-family: Inter;
+}
+
+footer .reseaux p{
+    flex: 1;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+footer .reseaux .logos{
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+}
+
+footer .reseaux .logos li{
+    margin-left: 1em;
+}
+
