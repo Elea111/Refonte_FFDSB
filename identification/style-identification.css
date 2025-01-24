@@ -1,0 +1,146 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+}
+
+.partie-logo {
+    flex: 1;
+}
+
+.logoffdsb {
+    width: 60%;
+    height: auto;
+}
+
+.menu li {
+    padding: 10px;
+    display: inline-block; /* colonne pour chaque li sur 1 ligne*/
+}
+
+.menu a {
+    text-decoration: none; /*enlève les lignes de lien*/
+    color: #C33339;
+    font-size: 19px;
+    font-weight: bold; /* texte en gras */
+    font-family: "PT Sans Narrow", sans-serif;
+
+}
+
+.menu a.identifier-btn {
+    background-color: #01628D;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+
+.menu a.identifier-btn:hover {
+    background-color: #004f7b;
+}
+
+@media (max-width: 768px) {
+
+    .menu a {
+        font-size: 14px;
+    }
+
+    .menu a.identifier-btn {
+        padding: 9px;
+        font-size: 14px;
+    }
+
+    .menu li {
+        padding: 6px;
+    }
+}
+
+
+.entete .image-entete{
+    width: 100%;
+    height: 420px;
+    border-radius: 8px;
+
+}
+
+
+.sous-titre {
+    color: #C13A2C;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+
+h1{
+    text-align: center;
+    color : #01628D;
+    font-family: "PT Sans Narrow", sans-serif;
+    padding-top: 1%;
+    font-size: 48px;
+
+}
+
+.p4{
+    text-align: center;
+    color: #C13A2C;
+    font-family: "Pt Serif", sans-serif;
+    padding-bottom: 3%; /* espacement entre p4 et Ethique du don de sang*/
+    font-size: 28px;
+}
+
+
+
+.menu-deroulant {
+    background-color: #01628D; /* Fond bleu */
+    padding: 3px;
+    border-radius: 8px; /* cadre bleu du menu déroulant */
+
+}
+
+.menu-deroulant a{
+    text-decoration: none; /*enlève les lignes de lien*/
+    font-weight: bold;
+    color: white;
+    font-family: "PT Sans Narrow", sans-serif;
+
+}
+
+.menu-deroulant li {
+    margin: 0 1%;
+    display: inline-block;
+    background-color: #EBBB55;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.menu-deroulant ul ul {
+    display: none; /* Cache les sous-menus par défaut */
+    position: absolute; /* Positionne les sous-menus en dehors du flux normal */
+    background-color: #01628D; /* Fond bleu pour le menu déroulant */
+    border-radius: 8px; /* border cadre bleu des sous-menus*/
+    width: 23%;
+    padding: 1%;
+}
+
+
+.menu-deroulant ul li:hover ul {
+    display : block; /* Affiche les sous-menus au survol du parent */
+}
+
+.menu-deroulant ul li ul li {
+    display: block; /* Les sous-menus s'affichent en colonnes */
+    margin-bottom: 4%; /* Espacement entre les éléments du sous-menu */
+    width: 100%; /* sous-menus prennent toute la longueur du cadre bleu*/
+}
+
+
+
+
+
